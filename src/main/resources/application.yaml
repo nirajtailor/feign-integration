@@ -11,4 +11,13 @@ feign:
         connectTimeout: 5000
         readTimeout: 5000
         loggerLevel: basic
+      user-service:
+        connectTimeout: 6000
+        readTimeout: 6000
+        loggerLevel: FULL
+        decode404: false
 
+
+logging:
+  level:
+    com.nirajtailor.feignintegration.Proxy: DEBUG
